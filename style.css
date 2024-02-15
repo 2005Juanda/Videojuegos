@@ -1,0 +1,159 @@
+header{
+    background: url("imagen3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+    padding-top: 15px;
+}
+.bg-nav-videojuegos{
+    background: transparent !important;
+}
+.bg-nav-rumbo{
+    background: transparent !important;
+}
+.bg-nav-rumbo ul li a.nav-link{
+    color: blue;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+
+}
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid blue;
+}
+#hero{
+    text-align: center;
+    margin-top: 150px;
+
+}
+#hero h2{
+    font-size: 60px;
+    color: blue;
+    margin-bottom: 0;
+}
+#hero h1{
+    color: white;
+    margin-bottom: 100px;
+}
+#hero button{
+    background: black;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    border-color: blue;
+}
+/* Seccion videojuegos */
+#Videojuegos{
+    background: url(imagen27.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 170vh;
+    padding-top: 2px;
+}
+#Videojuegos{
+    padding: 20px 0;
+    text-align: center;
+    
+}
+#Videojuegos h2{
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: red;
+}
+#Videojuegos p{
+    font-size: 22px;
+    color: #fff;
+}
+#Videojuegos img{
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+}
+#bg-nav-videojuegos h3{
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+/* Estilos de la seccion Lanzamientos */
+
+#Lanzamientos{
+    width: 100%;
+    background: url("imagen28.jpg");
+    background-size: cover;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#Lanzamientos h2{
+    text-align: center, 0px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff ;
+}
+#Lanzamientos p{
+    font-size: 22px;
+    color: #fff;
+}    
+#Lanzamientos h3{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0 50px;
+}
+/* Estilos de la seccion planes */
+#Planes{
+    background: url(imagen29.jpg);
+    background-size: cover;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#Planes h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#Planes p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+#Planes h3{
+    color: #fff;
+}
+/* Estilos seccion Contactos */
+
+footer{
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+
+}
+/* Efectos hover */
+#hero img,
+nav img
+hero button,
+#Planes img
+#Destinos img{
+    transition: 1s;
+}
+
+#hero img:hover{
+    transform: rotate(-360deg);
+}
+nav img:hover{
+    transform: scale(1.1);
+}
+#hero button:hover{
+    box-shadow: 4px 6px 6px 4px #fff;
+}
+#Planes img:hover{
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+#Destinos img:hover{
+    transform: rotate(-360deg);
+}
